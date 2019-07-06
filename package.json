@@ -1,0 +1,45 @@
+{
+  "name": "awrocss",
+  "version": "1.0.0",
+  "description": "Simple and minimalist css framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahramMebashar/awrocss.git"
+  },
+  "keywords": [
+    "css",
+    "awro",
+    "awrosoft",
+    "sass",
+    "scss",
+    "javascript",
+    "kurdish",
+    "rtl",
+    "js",
+    "es6",
+    "gulp",
+    "pug"
+  ],
+  "author": "Shahram M. Hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShahramMebashar/awrocss/issues"
+  },
+  "homepage": "https://github.com/ShahramMebashar/awrocss#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "webpack": "^4.35.2"
+  }
+}

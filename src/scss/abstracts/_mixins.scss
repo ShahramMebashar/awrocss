@@ -1,0 +1,13 @@
+@mixin for-size($size) {
+  @if $size == mob-only {
+    @media only screen and (max-width: 599px) { @content; }
+  } @else if $size == tb-portrait-up {
+    @media only screen and (min-width: 600px) { @content; }
+  } @else if $size == tb-landscape-up {
+    @media only screen and (min-width: 900px) { @content; }
+  } @else if $size == dp-up {
+    @media only screen and (min-width: 1200px) { @content; }
+  } @else if $size == big-dp-up {
+    @media only screen and (min-width: 1800px) { @content; }
+  }
+}
